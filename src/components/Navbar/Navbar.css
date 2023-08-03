@@ -1,0 +1,30 @@
+.navbar {
+  letter-spacing: 2.7px;
+  font-size: 16px;
+  font-family: var(--font-barlow);
+}
+
+.navbar_elements {
+  display: inline-flex;
+  list-style: none;
+  position: absolute;
+  right: 0%;
+  top: 5%;
+  transform: translate(-50%, -50%);
+  backdrop-filter: blur(10px);
+}
+
+.logo {
+  position: absolute;
+  top: 5%;
+  left: 3%;
+}
+
+li {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+b {
+  padding-right: 0.5rem;
+}
