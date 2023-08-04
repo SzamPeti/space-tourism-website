@@ -1,3 +1,21 @@
-.home {
-  background: url("../assets/home/background-home-desktop.jpg");
+.homePage {
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.firstLine {
+  color: var(--color-blue);
+  font-family: var(--font-barlow);
+  font-size: 28px;
+  letter-spacing: 4.75px;
+}
+.secondLine {
+  color: var(--color-butter);
+  font-family: var(--font-bellefair);
+  font-size: 150px;
+}
+.thirdLine {
+  color: var(--color-blue);
 }

@@ -9,3 +9,8 @@
   --color-blue: #d0d6f9;
   --color-butter: #ffffff;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}

@@ -2,22 +2,32 @@
   letter-spacing: 2.7px;
   font-size: 16px;
   font-family: var(--font-barlow);
+  padding: 2rem;
+  color: var(--color-butter);
+}
+
+navbar .navbar_li:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--color-butter);
+  transition: 0.3s ease all;
+  cursor: pointer;
 }
 
 .navbar_elements {
   display: inline-flex;
   list-style: none;
   position: absolute;
-  right: 0%;
-  top: 5%;
-  transform: translate(-50%, -50%);
-  backdrop-filter: blur(10px);
+  right: 0;
+  /* left: 0; */
+  top: 1;
+  backdrop-filter: blur(20px);
+  padding: 2rem;
 }
 
 .logo {
   position: absolute;
-  top: 5%;
-  left: 3%;
+  top: 1;
+  left: 2;
 }
 
 li {

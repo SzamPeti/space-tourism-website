@@ -1,17 +1,18 @@
 import React from "react";
-// import { ReactComponent as ReactLogo } from "./assets/shared/logo";
+import { images } from "../../constants";
 import "./Navbar.css";
 
 const Navbar = () => {
   return (
     <div>
       <div className="navbar">
-        {/* <ReactLogo className="logo" alt="Logo" /> */}
-        <h3 className="logo">Logo</h3>
+        <img src={images.logo} alt="logo" className="logo" />
         <ul className="navbar_elements">
-          <li>
-            <b>00</b> Home
-          </li>
+          <div className="navbar_li">
+            <li>
+              <b>00</b> Home
+            </li>
+          </div>
           <li>
             <b>01</b> Destination
           </li>
