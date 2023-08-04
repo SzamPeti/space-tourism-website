@@ -3,14 +3,29 @@
   font-size: 16px;
   font-family: var(--font-barlow);
   padding: 2rem;
-  color: var(--color-butter);
+  /* color: var(--color-butter); */
+  text-transform: uppercase;
 }
 
-navbar .navbar_li:hover {
-  text-decoration: underline;
-  text-decoration-color: var(--color-butter);
-  transition: 0.3s ease all;
+.navbar_elements a:hover {
   cursor: pointer;
+  border-bottom: 2px solid grey;
+  transition: ease-in-out 0.1s;
+  padding: 0 0.5em;
+  line-height: 50px;
+}
+
+.navbar_elements a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 0 1em 0 0;
+  color: var(--color-butter);
+  line-height: 52px;
+}
+
+.navbar_padding {
+  padding: 0 1rem 0 2rem;
 }
 
 .navbar_elements {
@@ -18,21 +33,15 @@ navbar .navbar_li:hover {
   list-style: none;
   position: absolute;
   right: 0;
-  /* left: 0; */
   top: 1;
   backdrop-filter: blur(20px);
-  padding: 2rem;
+  padding: 0.5rem 6.5rem;
 }
 
 .logo {
   position: absolute;
   top: 1;
   left: 2;
-}
-
-li {
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 b {
