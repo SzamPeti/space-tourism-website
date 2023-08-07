@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "../Navbar/Navbar";
 import { images } from "../../constants";
+import { Link } from "react-router-dom";
 import "./Home.css";
 
 const Home = () => {
@@ -9,7 +9,6 @@ const Home = () => {
       style={{ backgroundImage: `url(${images.background_home_pc})` }}
       className="homePage"
     >
-      <Navbar />
       <div className="textBox">
         <div className="firstLine">So, you want to travel to</div>
         <div className="secondLine">Space</div>
@@ -21,7 +20,9 @@ const Home = () => {
         </div>
       </div>
 
-      <button className="btn_explore">Explore</button>
+      <Link to="/destination" className="btn_explore">
+        <div className="explore"></div>Explore
+      </Link>
     </div>
   );
 };

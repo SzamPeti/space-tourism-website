@@ -42,16 +42,26 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
+- React Router: (This video helped me a lot throug this challange)[https://www.youtube.com/watch?v=SLfhMt5OUPI]
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
+DAY 1
+I started my journy in this challange. Took me a half day (because i started it in the afternoon) to builed up the foundation of this project. I made tthe main and subfolders, the empty project files, etc.
+
+DAY2
+I start to build the Home page. Declare the fonts and colors what i needed to use in every page so not needed to import every time. Made a data.js file where i stored the information from the data.json. Created an object so it's easier to work with.
+Finished the navigation bar designing, give the home page the backgroumd and styled the texts.
+
+DAY3
+At the weekend i had no time work on this but this gave me time to think about what i need to do and how can i make the progress easier. I look after how can i route the navbar so i can finish that part. After i wathed the video (placed the link up there) i started make it. After i changed the '<a>' tags to a '<Link>' tags the design just shit it self and i needed to start over. After that i styled the Explore button and made it work also like the navbar. Home page finished, starting the Destination page.
+
 ### Built with
 
 - React Router
 - React Transition Group
-- React Router
 - [React](https://reactjs.org/) - JS library
 - [Next.js](https://nextjs.org/) - React framework
 

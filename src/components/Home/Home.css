@@ -1,7 +1,6 @@
 .homePage {
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
   background-repeat: no-repeat;
   height: 100vh;
 }
@@ -16,7 +15,41 @@
   color: var(--color-butter);
   font-family: var(--font-bellefair);
   font-size: 150px;
+  text-transform: uppercase;
 }
 .thirdLine {
   color: var(--color-blue);
+  max-width: 450px;
+  line-height: 32px;
+  font-size: 18px;
+}
+
+.textBox {
+  position: absolute;
+  bottom: 20%;
+  left: 9%;
+}
+
+.btn_explore {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 274px;
+  width: 274px;
+  border-radius: 50%;
+  background-color: var(--color-butter);
+  font-size: 32px;
+  font-family: var(--font-bellefair);
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+.explore {
+  display: flex;
+  padding-top: 119px;
 }

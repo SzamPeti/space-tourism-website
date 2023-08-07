@@ -6,7 +6,7 @@
   --font-barlow: "Barlow Condensed", sans-serif;
 
   --color-black: #0b0d17;
-  --color-blue: #d0d6f9;
+  --color-blue: rgb(108, 214, 249);
   --color-butter: #ffffff;
 }
 
@@ -15,7 +15,7 @@
   padding: 0;
 }
 
-.active {
+/* .active {
   border-bottom: 2px solid var(--color-butter);
   pointer-events: none;
-}
+} */
