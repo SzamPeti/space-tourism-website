@@ -51,6 +51,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 - React Router
 - React Transition Group
+- React Router
 - [React](https://reactjs.org/) - JS library
 - [Next.js](https://nextjs.org/) - React framework
 
