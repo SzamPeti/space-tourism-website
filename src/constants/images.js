@@ -30,6 +30,11 @@ import icon_close from "../assets/icon-close.svg";
 import icon_hamburger from "../assets/icon-hamburger.svg";
 import logo from "../assets/logo.svg";
 
+import img__moon from "../assets/pngs/image-moon.png";
+import img__mars from "../assets/pngs/image-mars.png";
+import img__europa from "../assets/pngs/image-europa.png";
+import img__titan from "../assets/pngs/image-titan.png";
+
 export default {
   background_home_pc,
   background_home_tablet,
@@ -60,4 +65,8 @@ export default {
   icon_close,
   icon_hamburger,
   logo,
+  img__moon,
+  img__mars,
+  img__europa,
+  img__titan,
 };

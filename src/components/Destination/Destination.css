@@ -1,0 +1,112 @@
+.destination {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.destination_pick {
+  font-family: var(--font-barlow);
+  font-size: 28px;
+  letter-spacing: 4.75px;
+  color: var(--color-butter);
+  position: absolute;
+  top: 212px;
+  left: 166px;
+}
+.nmb {
+  color: gray;
+}
+
+button {
+  display: inline-flex;
+  gap: 35px;
+  padding-right: 35px;
+  text-transform: uppercase;
+  cursor: pointer;
+  height: 19px;
+  border: none;
+  background-color: transparent;
+  font-family: var(--font-barlow);
+  font-size: 16px;
+  letter-spacing: 2.7px;
+  color: var(--color-blue);
+  line-height: 34px;
+}
+
+.miniNavbar {
+  position: absolute;
+  top: 310px;
+  right: 285px;
+}
+
+.active_destination {
+  border-bottom: solid var(--color-butter) 2px;
+  color: var(--color-butter);
+  height: 40px;
+}
+
+.planetName {
+  font-family: var(--font-bellefair);
+  font-size: 100px;
+  color: var(--color-butter);
+  text-transform: uppercase;
+  position: absolute;
+  top: 381px;
+  right: 286px;
+}
+
+.planetDescr {
+  font-family: var(--font-barlow);
+  font-size: 20px;
+  line-height: 35px;
+  color: var(--color-blue);
+  position: absolute;
+  right: 164px;
+  bottom: 250px;
+  width: 445px;
+}
+
+.distanceLine {
+  font-family: var(--font-barlow);
+  color: var(--color-blue);
+  font-size: 14px;
+  letter-spacing: 2.36px;
+  text-transform: uppercase;
+  position: absolute;
+  right: 443px;
+  bottom: 118px;
+}
+
+.planetDistance {
+  font-family: var(--font-bellefair);
+  color: var(--color-butter);
+  font-size: 28px;
+  padding-top: 12px;
+}
+
+.timeLine {
+  font-family: var(--font-barlow);
+  color: var(--color-blue);
+  font-size: 14px;
+  letter-spacing: 2.36px;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 118px;
+  right: 235px;
+}
+
+.planetTime {
+  font-family: var(--font-bellefair);
+  color: var(--color-butter);
+  font-size: 28px;
+  padding-top: 12px;
+}
+
+.planetImg {
+  position: absolute;
+  left: 230px;
+  bottom: 112px;
+  height: 445px;
+  width: 445px;
+}
