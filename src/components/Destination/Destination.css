@@ -19,9 +19,6 @@
 }
 
 button {
-  display: inline-flex;
-  gap: 35px;
-  padding-right: 35px;
   text-transform: uppercase;
   cursor: pointer;
   height: 19px;
@@ -32,6 +29,12 @@ button {
   letter-spacing: 2.7px;
   color: var(--color-blue);
   line-height: 34px;
+  margin-right: 35px;
+}
+
+button:hover {
+  border-bottom: solid grey 2px;
+  height: 40px;
 }
 
 .miniNavbar {
@@ -63,7 +66,7 @@ button {
   color: var(--color-blue);
   position: absolute;
   right: 164px;
-  bottom: 250px;
+  top: 510px;
   width: 445px;
 }
 
@@ -75,7 +78,7 @@ button {
   text-transform: uppercase;
   position: absolute;
   right: 443px;
-  bottom: 118px;
+  top: 721px;
 }
 
 .planetDistance {
@@ -92,7 +95,7 @@ button {
   letter-spacing: 2.36px;
   text-transform: uppercase;
   position: absolute;
-  bottom: 118px;
+  top: 721px;
   right: 235px;
 }
 
@@ -106,7 +109,7 @@ button {
 .planetImg {
   position: absolute;
   left: 230px;
-  bottom: 112px;
+  top: 343px;
   height: 445px;
   width: 445px;
 }

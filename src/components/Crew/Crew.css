@@ -1,0 +1,17 @@
+.crew {
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100vh;
+  z-index: 0;
+}
+
+.meetCrew {
+  color: var(--color-butter);
+  font-family: var(--font-barlow);
+  font-size: 28px;
+  letter-spacing: 4.72px;
+}
+
+.nmb2 {
+  color: grey;
+}

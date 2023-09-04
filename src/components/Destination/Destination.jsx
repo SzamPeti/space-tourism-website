@@ -53,6 +53,9 @@ const Destination = () => {
     setSelectedDestination(destinations);
   };
 
+  // Setting up that the active subpage (the miniNavbar) will change on click
+  const [activeButton, setActiveButton] = useState(null);
+
   return (
     <div
       className="destination"
@@ -63,13 +66,45 @@ const Destination = () => {
       <div className="destination_pick">
         <b className="nmb">01</b> Pick your destination
       </div>
-      {/* <div className="container"> */}
       <div className="miniNavbar">
-        <button onClick={() => handleButtonClick("Moon")}>Moon</button>
-        <button onClick={() => handleButtonClick("Mars")}>Mars</button>
-        <button onClick={() => handleButtonClick("Europa")}>Europa</button>
-        <button onClick={() => handleButtonClick("Titan")}>Titan</button>
+        <button
+          onClick={() => {
+            handleButtonClick("Moon");
+            setActiveButton("button1");
+          }}
+          className={activeButton === "button1" ? "active_destination" : ""}
+        >
+          Moon
+        </button>
+        <button
+          onClick={() => {
+            handleButtonClick("Moon");
+            setActiveButton("button2");
+          }}
+          className={activeButton === "button2" ? "active_destination" : ""}
+        >
+          Mars
+        </button>
+        <button
+          onClick={() => {
+            handleButtonClick("Moon");
+            setActiveButton("button3");
+          }}
+          className={activeButton === "button3" ? "active_destination" : ""}
+        >
+          Europa
+        </button>
+        <button
+          onClick={() => {
+            handleButtonClick("Moon");
+            setActiveButton("button4");
+          }}
+          className={activeButton === "button4" ? "active_destination" : ""}
+        >
+          Titan
+        </button>
       </div>
+
       {selectedDestination === "Moon" && (
         <div>
           <div className="planetName">{arrayPlanet[0]}</div>
@@ -142,19 +177,7 @@ const Destination = () => {
         </div>
       )}
     </div>
-    /*</div>*/
   );
-};
-
-// Setting up that the active subpage (the miniNavbar) will change on click
-const activeSubPage = document.querySelector(".active_destination");
-
-const activeSubPageChange = () => {
-  if (activeSubPage) {
-    activeSubPage.classList.remove("active_destination");
-  } else {
-    activeSubPage.classList.add("active_destination");
-  }
 };
 
 export default Destination;
